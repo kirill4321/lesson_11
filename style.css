@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.wraper{
+    width: 100%;
+    height: 1000px;
+}
+.box{
+    width: 225px;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    display: flex;
+}
+.box_1{
+    width: 75px;
+    height: 500px;
+    background: #FFC814;
+background: radial-gradient(circle farthest-corner at center center, #FFC814 57%, #FFE605 100%);
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    bottom: 27px;
+}
+.box_2{
+    width: 75px;
+    height: 500px;
+    background: #ffbc03;
+    background: linear-gradient(to right, #ffbc03 10%, #FFB60A 29%, #FFB300 70%, #FFBC03 91%);
+    border-radius: 50px 50px 0px 0px ;
+    position: relative;
+    bottom: 27px;
+}
+.box_3{
+    width: 75px;
+    height: 500px;
+    background: #FFDD00;
+    background: linear-gradient(to top right, #FFDD00 57%, #FFCC00 100%);
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    bottom: 27px;
+}
+.wood{
+    position: absolute;
+    bottom: 495px;
+    width: 225px;
+    height: 200px;
+    background-color: rgb(255, 228, 107);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #CD853F;
+    background: linear-gradient(to right, #CD853F 55%, #704923 97%);
+}
+
+.grifel{
+    position: absolute;
+    z-index: 2;
+    bottom: 100px;
+    width: 225px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    background: #959595;
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+
+}
